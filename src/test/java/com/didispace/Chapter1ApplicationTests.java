@@ -12,12 +12,11 @@ import org.springframework.mock.web.MockServletContext;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = MockServletContext.class)
+//@RunWith(SpringJUnit4ClassRunner.class)
+//@SpringApplicationConfiguration(classes = MockServletContext.class)
 public class Chapter1ApplicationTests {
 
 	private static final Log log = LogFactory.getLog(Chapter1Application.class);
-
 	@Autowired
 	private BlogProperties blogProperties;
 
